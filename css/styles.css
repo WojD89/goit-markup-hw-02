@@ -1,261 +1,218 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #2e2f42;
+}
+
 .web-logoup {
   width: 44px;
-  color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .studio-logoup {
   width: 71px;
-  color: var(--navyblue, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .menu-studio {
-  color: var(--navyblue, #2e2f42);
-
-  /* Body Medium */
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .menu-portfolio {
-  color: var(--navyblue, #2e2f42);
-
-  /* Body Medium */
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .menu-contacts {
-  color: var(--navyblue, #2e2f42);
-
-  /* Body Medium */
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .mail {
-  color: var(--slate, #434455);
-
-  /* Body */
-  font-family: Roboto;
+  color: #434455;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .tel {
-  color: var(--slate, #434455);
-
-  /* Body */
-  font-family: Roboto;
+  color: #434455;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .front-button {
-  display: inline-flex;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   border-radius: 4px;
-  background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  /* button text */
-  color: var(--white, #fff);
-
-  /* Button Text */
-  font-family: Roboto;
+  background: #4d5ae5;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.64px;
 }
 .advantages {
   width: 264px;
-  color: var(--navyblue, #2e2f42);
-
   /* Header 3 */
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .discription {
   width: 264px;
-  color: var(--slate, #434455);
-
+  color: #434455;
   /* Body */
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .main-header {
-  color: var(--white, #fff);
+  color: #fff;
   text-align: center;
 
   /* Header 1 */
-  font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .header-background {
-  background: var(--navyblue, #2e2f42);
+  background: #2e2f42;
   width: 1440px;
   height: 600px;
-  flex-shrink: 0;
+}
+.header2 {
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .bottom-section {
   width: 1440px;
   height: 732px;
-  flex-shrink: 0;
-  background: var(--cloud, #f4f4fd);
+  background: #f4f4fd;
 }
 .person-name {
-  color: var(--navyblue, #2e2f42);
   text-align: center;
 
   /* Header 3 */
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .person-position {
-  color: var(--slate, #434455);
+  color: #434455;
   text-align: center;
 
-  /* Body */
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.img-title {
-  color: var(--navyblue, #2e2f42);
-
+.portfolio-img-title {
   /* Header 3 */
-  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
-.img-subtitle {
-  color: var(--slate, #434455);
-
-  /* Body */
-  font-family: Roboto;
+.portfolio-img-subtitle {
+  color: #434455;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .web-logodown {
-  display: flex;
   width: 44px;
   height: 21px;
-  flex-direction: column;
-  justify-content: center;
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .studio-logodown {
-  display: flex;
   width: 71px;
   height: 21px;
-  flex-direction: column;
-  justify-content: center;
-  color: var(--cloud, #f4f4fd);
+  color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.footer {
+  background-color: #2e2f42;
+}
 .footer-txt {
   width: 264px;
-  color: var(--cloud, #f4f4fd);
+  color: #f4f4fd;
 
-  /* Body */
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.front-button {
+  cursor: pointer;
+}
+
 .button {
   cursor: pointer;
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
   border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--cloud, #f4f4fd);
+  border: 1px solid #e7e9fc;
+  background: #f4f4fd;
 
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
   text-align: center;
 
   /* Button Text */
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.64px;
 }
+
 .button:active,
 .button:hover,
 .button:focus {
   border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--IRIS, #4d5ae5);
-  color: var(--cloud, #f4f4fd);
+  border: 1px solid #e7e9fc;
+  background: #4d5ae5;
+  color: #f4f4fd;
 }
