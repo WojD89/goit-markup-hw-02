@@ -3,17 +3,17 @@ body {
   color: #2e2f42;
 }
 
-.web-logoup {
-  width: 44px;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+.iris {
+  color: #4d5ae5;
 }
-.studio-logoup {
+.cloud {
+  color: #f4f4fd;
+}
+.navyblue {
+  color: #2e2f42;
+}
+
+.logo {
   width: 71px;
   font-family: Raleway;
   font-size: 18px;
@@ -22,42 +22,32 @@ body {
   line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
-.menu-studio {
+.menu-item {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  text-decoration: none;
 }
-.menu-portfolio {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+.menu-item:active .menu-item:hover .menu-item:focus {
+  color: #404bbf;
 }
-.menu-contacts {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-.mail {
+
+.contact {
   color: #434455;
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  text-decoration: none;
 }
-.tel {
-  color: #434455;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+.contact:active .contact:focus {
+  color: #404bbf;
 }
+
 .front-button {
   padding: 16px 32px;
   border-radius: 4px;
@@ -151,32 +141,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.web-logodown {
-  width: 44px;
-  height: 21px;
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-.studio-logodown {
-  width: 71px;
-  height: 21px;
-  color: #f4f4fd;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
+
 .footer {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
 }
 .footer-txt {
   width: 264px;
@@ -189,6 +158,9 @@ body {
 }
 .front-button {
   cursor: pointer;
+}
+.front-button:hover {
+  background-color: #404bbf;
 }
 
 .button {
