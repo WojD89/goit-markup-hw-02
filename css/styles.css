@@ -12,7 +12,9 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--navyblue);
 }
-
+.navyblue {
+  color: var(--navyblue);
+}
 .iris {
   color: var(--iris);
 }
